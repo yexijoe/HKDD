@@ -20,9 +20,11 @@ Coming soon.
 
 ## Citation
 If you find this repository helpful, please consider citing:
+```
 @Article{zheng2023hkdd,
   title   = {Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification},
   author  = {Shilian Zheng, Xiaoyu Zhou, Luxin Zhang, Peihan Qi, Kunfeng Qiu, Jiawei Zhu, and Xiaoniu Yang},
   journal = {IEEE Transactions on Cognitive Communications & Networking},
   year    = {2023},
 }
+```
