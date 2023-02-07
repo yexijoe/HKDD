@@ -2,7 +2,9 @@
 
 ## About paper
 Title: Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification.
+
 Author: Shilian Zheng, Xiaoyu Zhou, Luxin Zhang, Peihan Qi, Kunfeng Qiu, Jiawei Zhu, and Xiaoniu Yang.
+
 Journal = IEEE Transactions on Cognitive Communications and Networking.
 
 ## Datasets
