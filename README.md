@@ -11,4 +11,7 @@ data_raw = train_data['XTrainIQ']
 data_feature = train_data['Feature']
 ```
 
-- The shape of data_raw is (2, L, 1, N), L is the length of each modulated signal, N is the number of signal samples. The shape of data_feature is (228, N), 228 represents the number of different adopted traditional features.
+- The shape of data_raw is (2, L, 1, N), 2 represents I and Q channels of each signal, L is the length of each modulated signal, N is the number of signal samples. The shape of data_feature is (228, N), 228 represents the number of different adopted traditional features.
+
+## Access link of these two datasets
+Coming soon.
