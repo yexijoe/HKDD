@@ -21,8 +21,9 @@ data_feature = train_data['Feature']
 ```
 
 - The shape of data_raw is (2, L, 1, N), 2 represents I and Q channels of each signal, L is the length of each modulated signal, N is the number of signal samples. The shape of data_feature is (228, N), 228 represents the number of different adopted traditional features.
+- The corresponding indexes of these 228 features in data_feature are shown in the following table, and the specific definitions of these 228 features can be found in the paper.
 
-| feature | location | feature | location | feature | location | feature | location | feature | location | feature | location | feature | location | feature | location | feature | location | feature | location | feature | location | feature | location |
+| feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | $K$ | 0 | $F_3^8$ | 19 | $r(n)@M_{12,2}$ | 38 | $r(n)@C_{6,2}$ | 57 | $z(n,2)@M_{4,0}$ | 76 | $z(n,2)@M_{16,0}$ | 95 | $z(n,2)@C_{8,3}$ | 114 | $z(n,4)@M_{6,2}$ | 133 | $z(n,4)@M_{16,5}$ | 152 | $z(n,4)@\\widehat C_{8,0}$ | 171 | $z(n,8)@M_{8,3}$ | 190 | $z(n,8)@C_{4,1}$ | 209 |
 | $P$ | 1 | $r(n)@M_{2,0}$ | 20 | $r(n)@M_{12,3}$ | 39 | $r(n)@C_{6,3}$ | 58 | $z(n,2)@M_{4,1}$ | 77 | $z(n,2)@M_{16,1}$ | 96 | $z(n,2)@C_{8,4}$ | 115 | $z(n,4)@M_{6,3}$ | 134 | $z(n,4)@M_{16,6}$ | 153 | $z(n,4)@\\widehat C_{8,1}$ | 172 | $z(n,8)@M_{8,4}$ | 191 | $z(n,8)@M_{4,2}$ | 210 |
