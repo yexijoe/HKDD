@@ -24,7 +24,7 @@ data_feature = train_data['Feature']
 
 | feature | location | feature | location | feature | location | feature | location | feature | location | feature | location |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| $K$ | $K$ | ${\sigma _a}$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ |
+| $K$ | 0 | $F_3^8$ | 19 | $r(n)-M_{12,2}$ | 38 | $r(n)-C_{6,2}$ | 57 | $z(n,2)-M_{4,0}$ | 76 | $z(n,2)-M_{16,0}$ | 95 | $z(n,2)-C_{8,3}$ | 114 | $z(n,4)-M_{6,2}$ | 133 | $z(n,4)-M_{16,5}$ | 152 | $z(n,4)-\\widehat C_{8,0}$ | 171 | $z(n,8)-M_{8,4}$ | 190 | $z(n,8)-C_{4,1}$ | 209 |
 
 ## Access link of these two datasets
 [The dataset HKDD_AMC12](https://figshare.com/articles/dataset/The_dataset_HKDD_AMC12_of_paper_Towards_Next-Generation_Signal_Intelligence_A_Hybrid_Knowledge_and_Data-Driven_Deep_Learning_Framework_for_Radio_Signal_Classification_/22047170)
