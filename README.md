@@ -22,6 +22,10 @@ data_feature = train_data['Feature']
 
 - The shape of data_raw is (2, L, 1, N), 2 represents I and Q channels of each signal, L is the length of each modulated signal, N is the number of signal samples. The shape of data_feature is (228, N), 228 represents the number of different adopted traditional features.
 
+| feature | location | feature | location | feature | location | feature | location | feature | location | feature | location |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ | $K$ |
+
 ## Access link of these two datasets
 [The dataset HKDD_AMC12](https://figshare.com/articles/dataset/The_dataset_HKDD_AMC12_of_paper_Towards_Next-Generation_Signal_Intelligence_A_Hybrid_Knowledge_and_Data-Driven_Deep_Learning_Framework_for_Radio_Signal_Classification_/22047170)
 
