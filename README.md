@@ -1,7 +1,7 @@
 # Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification
 
 ## About paper
-**Title**: Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification.
+**Title**: Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification. (Coming soon)
 
 **Author**: Shilian Zheng, Xiaoyu Zhou, Luxin Zhang, Peihan Qi, Kunfeng Qiu, Jiawei Zhu, and Xiaoniu Yang.
 
