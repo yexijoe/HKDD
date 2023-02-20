@@ -1,7 +1,7 @@
-# [Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification](https://ieeexplore.ieee.org/document/10042021)
+# [Toward Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification](https://ieeexplore.ieee.org/document/10042021)
 
 ## About paper
-**Title**: [Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification.](https://ieeexplore.ieee.org/document/10042021)
+**Title**: [Toward Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification.](https://ieeexplore.ieee.org/document/10042021)
 
 **Author**: Shilian Zheng, Xiaoyu Zhou, Luxin Zhang, Peihan Qi, Kunfeng Qiu, Jiawei Zhu, and Xiaoniu Yang.
 
@@ -55,14 +55,14 @@ data_feature = train_data['Feature']
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
-S. Zheng et al., "Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification," in IEEE Transactions on Cognitive Communications and Networking, doi: 10.1109/TCCN.2023.3243899.
+S. Zheng et al., "Toward Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification," in IEEE Transactions on Cognitive Communications and Networking, doi: 10.1109/TCCN.2023.3243899.
 ```
 or
 ```
 @ARTICLE{10042021,
   author={Zheng, Shilian and Zhou, Xiaoyu and Zhang, Luxin and Qi, Peihan and Qiu, Kunfeng and Zhu, Jiawei and Yang, Xiaoniu},
   journal={IEEE Transactions on Cognitive Communications and Networking}, 
-  title={Towards Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification}, 
+  title={Toward Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification}, 
   year={2023},
   volume={},
   number={},
