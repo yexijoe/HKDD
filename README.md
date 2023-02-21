@@ -23,6 +23,26 @@ data_feature = train_data['Feature']
 - The shape of **data_raw** is (2, L, 1, N), 2 represents I and Q channels of each signal, L is the length of each modulated signal, N is the number of signal samples. The shape of **data_feature** is (228, N), 228 represents the number of different adopted traditional features.
 - The corresponding indexes of these 228 features in **data_feature** are shown in the following table, and the specific definitions of these 228 features can be found in the paper.
 
+The label data of dataset HKDD_AMC12 is as follows
+```
+import numpy as np
+label_base = np.arange(0, 12)
+label_train = label_base.repeat(1000)
+label_train = np.tile(label_train, 21)  # the class label of training set
+label_test = label_base.repeat(500)
+label_test = np.tile(label_test, 21)  # the class label of test set
+```
+
+The label data of dataset HKDD_AMC36 is as follows
+```
+import numpy as np
+label_base = np.arange(0, 36)
+label_train = label_base.repeat(1000)
+label_train = np.tile(label_train, 26)  # the class label of training set
+label_test = label_base.repeat(500)
+label_test = np.tile(label_test, 26)  # the class label of test set
+```
+
 | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | $K$ | 0 | $F_3^8$ | 19 | $r(n)@M_{12,2}$ | 38 | $r(n)@C_{6,2}$ | 57 | $z(n,2)@M_{4,0}$ | 76 | $z(n,2)@M_{16,0}$ | 95 | $z(n,2)@C_{8,3}$ | 114 | $z(n,4)@M_{6,2}$ | 133 | $z(n,4)@M_{16,5}$ | 152 | $z(n,4)@\\widehat C_{8,0}$ | 171 | $z(n,8)@M_{8,3}$ | 190 | $z(n,8)@C_{4,1}$ | 209 |
