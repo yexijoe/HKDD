@@ -25,6 +25,7 @@ data_feature = train_data['Feature']
 
 The label data of dataset HKDD_AMC12 is as follows
 ```
+# python
 import numpy as np
 label_base = np.arange(0, 12)
 label_train = label_base.repeat(1000)
@@ -35,6 +36,7 @@ label_test = np.tile(label_test, 21)  # the class label of test set
 
 The label data of dataset HKDD_AMC36 is as follows
 ```
+# python
 import numpy as np
 label_base = np.arange(0, 36)
 label_train = label_base.repeat(1000)
