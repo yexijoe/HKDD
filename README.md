@@ -32,6 +32,8 @@ label_train = label_base.repeat(1000)
 label_train = np.tile(label_train, 21)  # the class label of training set
 label_test = label_base.repeat(500)
 label_test = np.tile(label_test, 21)  # the class label of test set
+# modulation_name = ['BPSK', 'QPSK', '8PSK', 'OQPSK', '2FSK', '4FSK', '8FSK', '16QAM', '32QAM', '64QAM', '4PAM', '8PAM']
+# all_dB = list(np.arange(-20, 21, 2))
 ```
 
 The label data of dataset HKDD_AMC36 is as follows
@@ -43,6 +45,8 @@ label_train = label_base.repeat(1000)
 label_train = np.tile(label_train, 26)  # the class label of training set
 label_test = label_base.repeat(500)
 label_test = np.tile(label_test, 26)  # the class label of test set
+# modulation_name = ['BPSK', 'QPSK', '8PSK', 'OQPSK', '16PSK', '32PSK', '2FSK', '4FSK', '8FSK', '16QAM', '32QAM', '64QAM', '128QAM', '256QAM', '16APSK', '32APSK', '64APSK', '128APSK', '256APSK', '4PAM', '8PAM', '16PAM', 'MSK', 'GMSK', '4CPM', '8CPM', 'OFDM-BPSK', 'OFDM-QPSK', 'OFDM-16QAM', 'AM', 'FM', 'OOK', '4ASK', '8ASK', 'AM-MSK', 'FM-MSK']
+# all_dB = list(np.arange(-20, 31, 2))
 ```
 
 | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index | feature | index |
