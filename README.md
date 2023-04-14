@@ -81,7 +81,7 @@ label_test = np.tile(label_test, 26)  # the class label of test set
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
-S. Zheng et al., "Toward Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification," in IEEE Transactions on Cognitive Communications and Networking, doi: 10.1109/TCCN.2023.3243899.
+S. Zheng, X. Zhou, L. Zhang, P. Qi, K. Qiu, J. Zhu, & X. Yang. "Toward Next-Generation Signal Intelligence: A Hybrid Knowledge and Data-Driven Deep Learning Framework for Radio Signal Classification," in IEEE Transactions on Cognitive Communications and Networking, doi: 10.1109/TCCN.2023.3243899.
 ```
 or
 ```
